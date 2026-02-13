@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlowPilot - The Future of Healthcare Email</title>
+    <title>FlowPilot - Intelligent Healthcare Email Management</title>
+    <meta name="description"
+        content="FlowPilot leverages advanced AI to intelligently categorize, prioritize, and automate healthcare communications. Purpose-built for healthcare organizations.">
     <!-- Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"
@@ -28,17 +30,18 @@
                     <i class="ph-bold ph-list"></i>
                 </div>
 
-                <!-- Links hidden on small mobile if needed, handled by flex -->
                 <div class="nav-links">
                     <a href="#problem">The Challenge</a>
                     <a href="#solution">Our Solution</a>
-                    <a href="#features">Capabilities</a>
+                    <a href="#categories">Classification</a>
+                    <a href="#priorities">Priority Engine</a>
+                    <a href="#ai-demo">AI Response</a>
                     <a href="#how-it-works">How It Works</a>
-                    <a href="#contact">Contact</a>
                 </div>
                 <div>
-                    <a href="#demo" class="btn btn-primary" style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Request
-                        Demo</a>
+                    <a href="https://flow-pilot-chi.vercel.app?_vercel_share=3e2c85CgwYzvTh25zhiV2DKoIi8qZu96"
+                        target="_blank" class="btn btn-primary" style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Live
+                        Dashboard</a>
                 </div>
             </nav>
         </div>
@@ -49,14 +52,15 @@
         <section id="hero" class="hero">
             <div class="container hero-grid">
                 <div class="hero-content reveal">
-                    <h1>Intelligent Email Management for <span class="text-gradient">Healthcare Excellence</span>
+                    <h1>Intelligent Email Management for <span class="text-gradient">Excellence</span>
                     </h1>
                     <p style="font-size: 1.25rem;">FlowPilot leverages advanced AI to intelligently categorize,
-                        prioritize, and automate healthcare communications—reducing response times and ensuring critical
-                        patient messages receive immediate attention.</p>
+                        prioritize, and automate communications — reducing response times and ensuring
+                        critical patient messages receive immediate attention.</p>
                     <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-                        <a href="#" class="btn btn-primary">Get Started Free</a>
-                        <a href="#" class="btn btn-secondary">Request Demo</a>
+                        <a href="https://flow-pilot-chi.vercel.app?_vercel_share=3e2c85CgwYzvTh25zhiV2DKoIi8qZu96"
+                            target="_blank" class="btn btn-primary">See Live Dashboard</a>
+                        <a href="#ai-demo" class="btn btn-secondary">Explore AI Capabilities</a>
                     </div>
                 </div>
                 <!-- Hero Dashboard Mockup -->
@@ -76,17 +80,20 @@
                         </div>
                     </div>
 
-                    <!-- Filters -->
+                    <!-- Filters - All Categories -->
                     <div class="mockup-filters">
-                        <div class="mockup-pill active">Appointment Scheduling</div>
+                        <div class="mockup-pill active">Appointments</div>
                         <div class="mockup-pill">Clinical Triage</div>
-                        <div class="mockup-pill">Prescription Mgmt</div>
+                        <div class="mockup-pill">Prescriptions</div>
                         <div class="mockup-pill">Billing</div>
+                        <div class="mockup-pill">Records</div>
+                        <div class="mockup-pill">Referrals</div>
+                        <div class="mockup-pill">Admin</div>
                     </div>
 
                     <!-- Email List -->
                     <div class="mockup-list">
-                        <!-- Email 1 (Appointment) -->
+                        <!-- Email 1 (Appointment - with AI Reply) -->
                         <div class="mockup-item active">
                             <div class="mockup-item-left">
                                 <div class="mockup-avatar-sm" style="background: #e0f2fe; color: #0284c7;">SJ</div>
@@ -96,15 +103,18 @@
                                 </div>
                             </div>
                             <div class="mockup-meta">
-                                <span class="mockup-badge badge-scheduling">Appointment Scheduling</span>
-                                <span class="mockup-time">10:42 AM</span>
+                                <span class="mockup-badge badge-scheduling">Appointment</span>
+                                <div style="display: flex; gap: 4px; align-items: center;">
+                                    <span class="mockup-badge badge-p3">P3</span>
+                                    <span class="mockup-badge badge-replied">Replied</span>
+                                </div>
                             </div>
                         </div>
 
                         <!-- AI Reply Preview -->
                         <div class="mockup-ai-card">
                             <div class="ai-header">
-                                <i class="ph-fill ph-sparkle"></i> AI Suggested Reply
+                                <i class="ph-fill ph-sparkle"></i> AI-Generated Reply
                             </div>
                             <p>Hi Sarah, thanks for letting us know. We can certainly reschedule your check-up. Are you
                                 available next Tuesday at 10:00 AM or Thursday at 2:00 PM?</p>
@@ -113,36 +123,78 @@
                             </div>
                         </div>
 
-                        <!-- Email 2 (Referral) -->
+                        <!-- Email 2 (Clinical - P1 Critical) -->
                         <div class="mockup-item">
                             <div class="mockup-item-left">
-                                <div class="mockup-avatar-sm" style="background: #f1f5f9; color: #64748b;">N</div>
+                                <div class="mockup-avatar-sm" style="background: #fee2e2; color: #dc2626;">SJ</div>
                                 <div>
-                                    <div class="mockup-sender">Dr. Nathan Lee</div>
-                                    <div class="mockup-subject">Patient Referral: John Doe - Cardiology Consultation
-                                    </div>
+                                    <div class="mockup-sender">Sarah Johnson</div>
+                                    <div class="mockup-subject">Severe chest pain and shortness of breath</div>
                                 </div>
                             </div>
                             <div class="mockup-meta">
-                                <span class="mockup-badge badge-referral">Provider Referrals</span>
-                                <span class="mockup-time">9:15 AM</span>
+                                <span class="mockup-badge badge-clinical">Clinical Triage</span>
+                                <span class="mockup-badge badge-p1">P1 Critical</span>
                             </div>
                         </div>
 
-                        <!-- Email 3 (Insurance) -->
+                        <!-- Email 3 (Billing) -->
                         <div class="mockup-item">
                             <div class="mockup-item-left">
-                                <div class="mockup-avatar-sm" style="background: #fef3c7; color: #d97706;">M</div>
+                                <div class="mockup-avatar-sm" style="background: #f3e8ff; color: #9333ea;">MC</div>
                                 <div>
                                     <div class="mockup-sender">Michael Chen</div>
-                                    <div class="mockup-subject">Clarification regarding Claim #482910</div>
+                                    <div class="mockup-subject">Insurance claim dispute - December visits</div>
                                 </div>
                             </div>
                             <div class="mockup-meta">
-                                <span class="mockup-badge badge-insurance">Billing & Insurance</span>
-                                <span class="mockup-time">Yesterday</span>
+                                <span class="mockup-badge badge-insurance">Billing</span>
+                                <span class="mockup-badge badge-p3">P3</span>
                             </div>
                         </div>
+
+                        <!-- Email 4 (Spam) -->
+                        <div class="mockup-item" style="opacity: 0.6;">
+                            <div class="mockup-item-left">
+                                <div class="mockup-avatar-sm" style="background: #f1f5f9; color: #64748b;">AD</div>
+                                <div>
+                                    <div class="mockup-sender">Marketing Promo</div>
+                                    <div class="mockup-subject">Limited time offer - medical supplies discount</div>
+                                </div>
+                            </div>
+                            <div class="mockup-meta">
+                                <span class="mockup-badge badge-spam">Spam</span>
+                                <span class="mockup-badge badge-p4">P4</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Metrics Bar -->
+        <section class="metrics-bar">
+            <div class="container">
+                <div class="metrics-grid">
+                    <div class="metric-item reveal">
+                        <div class="metric-value" data-target="7">0</div>
+                        <div class="metric-label">Healthcare Categories</div>
+                        <div class="metric-desc">AI-classified domains</div>
+                    </div>
+                    <div class="metric-item reveal">
+                        <div class="metric-value" data-target="4">0</div>
+                        <div class="metric-label">Priority Levels</div>
+                        <div class="metric-desc">SLA-driven routing</div>
+                    </div>
+                    <div class="metric-item reveal">
+                        <div class="metric-value metric-seconds"><span data-target="30">0</span>s</div>
+                        <div class="metric-label">Classification Speed</div>
+                        <div class="metric-desc">Average per email</div>
+                    </div>
+                    <div class="metric-item reveal">
+                        <div class="metric-value metric-percent"><span data-target="70">0</span>%+</div>
+                        <div class="metric-label">Auto-Reply Coverage</div>
+                        <div class="metric-desc">Routine emails handled</div>
                     </div>
                 </div>
             </div>
@@ -153,8 +205,8 @@
             <div class="container">
                 <div class="text-center reveal">
                     <h2>The Challenge</h2>
-                    <p>Healthcare organizations face unprecedented email volume—placing patient outcomes and operational
-                        efficiency at risk.</p>
+                    <p>Healthcare organizations face unprecedented email volume — placing patient outcomes and
+                        operational efficiency at risk.</p>
                 </div>
                 <div class="problem-grid">
                     <div class="glass-card reveal">
@@ -171,8 +223,8 @@
                             <h3>Inefficient Resource Allocation</h3>
                         </div>
                         <p>Clinical staff dedicate significant hours to manually sorting billing inquiries and
-                            scheduling requests—time that could be directed toward patient care and clinical priorities.
-                        </p>
+                            scheduling requests — time that could be directed toward patient care and clinical
+                            priorities.</p>
                     </div>
                     <div class="glass-card reveal">
                         <div class="problem-header">
@@ -180,15 +232,15 @@
                             <h3>Priority Identification Gaps</h3>
                         </div>
                         <p>Without intelligent prioritization systems, distinguishing urgent cases from routine
-                            correspondence becomes challenging—critical emergencies compete for attention alongside
+                            correspondence becomes challenging — critical emergencies compete for attention alongside
                             standard inquiries.</p>
                     </div>
                     <div class="glass-card reveal">
                         <div class="problem-header">
                             <div class="icon-box"><i class="ph-fill ph-trend-down"></i></div>
-                            <h3>Regulatory & Compliance Exposure</h3>
+                            <h3>Regulatory &amp; Compliance Exposure</h3>
                         </div>
-                        <p>Manual processing increases the risk of privacy oversights and SLA breaches—elevating legal
+                        <p>Manual processing increases the risk of privacy oversights and SLA breaches — elevating legal
                             liability and potentially impacting patient satisfaction and trust.</p>
                     </div>
                 </div>
@@ -209,7 +261,7 @@
                         <div>
                             <h3>Intelligent Categorization</h3>
                             <p>Advanced AI automatically distinguishes Clinical Triage from Billing, Scheduling, and
-                                Administrative communications—ensuring each message reaches the appropriate team
+                                Administrative communications — ensuring each message reaches the appropriate team
                                 instantly.</p>
                         </div>
                     </div>
@@ -226,7 +278,364 @@
                         <div>
                             <h3>Enterprise Integration</h3>
                             <p>Seamlessly integrates with Outlook and existing EHR systems while maintaining full HIPAA
-                                compliance—requiring minimal workflow adjustments from your team.</p>
+                                compliance — requiring minimal workflow adjustments from your team.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Showcase -->
+        <section id="categories" class="section-padding section-categories">
+            <div class="container">
+                <div class="text-center reveal">
+                    <h2>Domain Classification Engine</h2>
+                    <p>Every incoming email is automatically classified into one of seven healthcare-specific
+                        categories,
+                        enabling precise routing and response automation.</p>
+                </div>
+                <div class="categories-showcase">
+                    <div class="category-card reveal" style="--card-accent: #0078d4;">
+                        <div class="category-card-icon">
+                            <i class="ph-fill ph-calendar-check"></i>
+                        </div>
+                        <h4>Appointment Scheduling</h4>
+                        <p>New bookings, rescheduling requests, cancellations, and availability checks.</p>
+                        <div class="category-card-examples">
+                            <span>Reschedule</span>
+                            <span>New Booking</span>
+                            <span>Cancellation</span>
+                        </div>
+                    </div>
+
+                    <div class="category-card reveal" style="--card-accent: #dc2626;">
+                        <div class="category-card-icon">
+                            <i class="ph-fill ph-first-aid-kit"></i>
+                        </div>
+                        <h4>Clinical Triage</h4>
+                        <p>Symptom reporting, post-operative questions, medical advice requests, and test result
+                            inquiries.</p>
+                        <div class="category-card-examples">
+                            <span>Symptoms</span>
+                            <span>Post-Op</span>
+                            <span>Test Results</span>
+                        </div>
+                    </div>
+
+                    <div class="category-card reveal" style="--card-accent: #16a34a;">
+                        <div class="category-card-icon">
+                            <i class="ph-fill ph-pill"></i>
+                        </div>
+                        <h4>Prescription Management</h4>
+                        <p>Medication refill requests, pharmacy coordination, and dosage inquiries.</p>
+                        <div class="category-card-examples">
+                            <span>Refill</span>
+                            <span>Dosage</span>
+                            <span>Pharmacy</span>
+                        </div>
+                    </div>
+
+                    <div class="category-card reveal" style="--card-accent: #9333ea;">
+                        <div class="category-card-icon">
+                            <i class="ph-fill ph-credit-card"></i>
+                        </div>
+                        <h4>Billing &amp; Insurance</h4>
+                        <p>Invoices, payment confirmations, insurance verification, claims disputes, and coverage
+                            questions.</p>
+                        <div class="category-card-examples">
+                            <span>Claims</span>
+                            <span>Payments</span>
+                            <span>Coverage</span>
+                        </div>
+                    </div>
+
+                    <div class="category-card reveal" style="--card-accent: #2563eb;">
+                        <div class="category-card-icon">
+                            <i class="ph-fill ph-folder-open"></i>
+                        </div>
+                        <h4>Medical Records (HIM)</h4>
+                        <p>Requests for medical history, lab reports, vaccination records, and intake form submissions.
+                        </p>
+                        <div class="category-card-examples">
+                            <span>Lab Reports</span>
+                            <span>Vaccination</span>
+                            <span>History</span>
+                        </div>
+                    </div>
+
+                    <div class="category-card reveal" style="--card-accent: #d97706;">
+                        <div class="category-card-icon">
+                            <i class="ph-fill ph-share-network"></i>
+                        </div>
+                        <h4>Provider Referrals</h4>
+                        <p>Incoming referral letters from external specialists or primary care physicians.</p>
+                        <div class="category-card-examples">
+                            <span>Cardiology</span>
+                            <span>Specialist</span>
+                            <span>Consultation</span>
+                        </div>
+                    </div>
+
+                    <div class="category-card reveal" style="--card-accent: #475569;">
+                        <div class="category-card-icon">
+                            <i class="ph-fill ph-gear-six"></i>
+                        </div>
+                        <h4>General Admin</h4>
+                        <p>IT support, feedback, facility questions, and vendor communications.</p>
+                        <div class="category-card-examples">
+                            <span>IT Support</span>
+                            <span>Facility</span>
+                            <span>Vendor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Priority Levels Section -->
+        <section id="priorities" class="section-padding section-priorities">
+            <div class="container">
+                <div class="text-center reveal">
+                    <h2>Priority Scoring &amp; SLA Engine</h2>
+                    <p>Every classified email is assigned a severity level from P1 (Emergency) to P4 (Informational),
+                        with predefined handling protocols for each tier.</p>
+                </div>
+                <div class="priority-tiers">
+                    <!-- P1 -->
+                    <div class="priority-tier reveal" style="--tier-color: #dc2626; --tier-bg: #fef2f2;">
+                        <div class="tier-header">
+                            <div class="tier-badge">P1</div>
+                            <div class="tier-title">
+                                <h4>Critical — Emergency</h4>
+                                <span class="tier-sla">Immediate Bypass</span>
+                            </div>
+                        </div>
+                        <div class="tier-body">
+                            <div class="tier-section">
+                                <h5>Classification Logic</h5>
+                                <p>Life-threatening keywords or indications of immediate distress/harm.</p>
+                            </div>
+                            <div class="tier-section">
+                                <h5>Required Handling</h5>
+                                <p>Trigger urgent alerts (SMS/Page) to human staff. No automated replies generated.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- P2 -->
+                    <div class="priority-tier reveal" style="--tier-color: #d97706; --tier-bg: #fffbeb;">
+                        <div class="tier-header">
+                            <div class="tier-badge">P2</div>
+                            <div class="tier-title">
+                                <h4>Urgent</h4>
+                                <span class="tier-sla">Response within 4 hours</span>
+                            </div>
+                        </div>
+                        <div class="tier-body">
+                            <div class="tier-section">
+                                <h5>Classification Logic</h5>
+                                <p>Acute symptoms, post-procedure complications, or time-sensitive medication needs.</p>
+                            </div>
+                            <div class="tier-section">
+                                <h5>Required Handling</h5>
+                                <p>Route to clinical staff queue for expedited response within the defined SLA window.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- P3 -->
+                    <div class="priority-tier reveal" style="--tier-color: #2563eb; --tier-bg: #eff6ff;">
+                        <div class="tier-header">
+                            <div class="tier-badge">P3</div>
+                            <div class="tier-title">
+                                <h4>Standard</h4>
+                                <span class="tier-sla">24 — 48 hour SLA</span>
+                            </div>
+                        </div>
+                        <div class="tier-body">
+                            <div class="tier-section">
+                                <h5>Classification Logic</h5>
+                                <p>Routine appointments, billing questions, and non-urgent record requests.</p>
+                            </div>
+                            <div class="tier-section">
+                                <h5>Required Handling</h5>
+                                <p>Automated processing via AI agent or standard queue within the defined SLA window.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- P4 -->
+                    <div class="priority-tier reveal" style="--tier-color: #64748b; --tier-bg: #f8fafc;">
+                        <div class="tier-header">
+                            <div class="tier-badge">P4</div>
+                            <div class="tier-title">
+                                <h4>Low / Informational</h4>
+                                <span class="tier-sla">Batch Processing</span>
+                            </div>
+                        </div>
+                        <div class="tier-body">
+                            <div class="tier-section">
+                                <h5>Classification Logic</h5>
+                                <p>General feedback, newsletters, out-of-office replies, and non-actionable
+                                    notifications.</p>
+                            </div>
+                            <div class="tier-section">
+                                <h5>Required Handling</h5>
+                                <p>Archive, log, or route to low-priority administrative review queue.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Auto-Reply Demo -->
+        <section id="ai-demo" class="section-padding section-ai-demo">
+            <div class="container">
+                <div class="text-center reveal">
+                    <h2>Intelligent Response Engine</h2>
+                    <p>FlowPilot generates contextually appropriate replies for routine inquiries while escalating
+                        critical cases to human staff — here is how the AI differentiates.</p>
+                </div>
+
+                <!-- Demo Tabs -->
+                <div class="demo-tabs reveal">
+                    <button class="demo-tab active" data-demo="emergency">Critical Emergency</button>
+                    <button class="demo-tab" data-demo="appointment">Appointment Request</button>
+                    <button class="demo-tab" data-demo="billing">Billing Inquiry</button>
+                </div>
+
+                <!-- Demo Panels -->
+                <div class="demo-panels">
+                    <!-- Emergency Panel -->
+                    <div class="demo-panel active" id="demo-emergency">
+                        <div class="demo-grid">
+                            <div class="demo-incoming reveal">
+                                <div class="demo-card-header">
+                                    <i class="ph-fill ph-envelope-simple"></i>
+                                    <span>Incoming Email</span>
+                                </div>
+                                <div class="demo-card-body">
+                                    <div class="demo-sender">From: Sarah Johnson</div>
+                                    <div class="demo-subject">Severe chest pain and shortness of breath</div>
+                                    <p>I am experiencing severe chest pain that started 30 minutes ago. The pain is
+                                        radiating to my left arm and I am also having difficulty breathing. I am 68
+                                        years old with a history of high blood pressure. Should I go to the emergency
+                                        room immediately?</p>
+                                </div>
+                            </div>
+                            <div class="demo-action reveal">
+                                <div class="demo-arrow">
+                                    <i class="ph-bold ph-arrow-right"></i>
+                                </div>
+                                <div class="demo-ai-decision">
+                                    <div class="demo-classification">
+                                        <span class="demo-badge" style="background: #fee2e2; color: #dc2626;">Clinical
+                                            Triage</span>
+                                        <span class="demo-badge"
+                                            style="background: #fef2f2; color: #dc2626; font-weight:700;">P1 —
+                                            Critical</span>
+                                    </div>
+                                    <div class="demo-result escalation">
+                                        <i class="ph-fill ph-warning-octagon"></i>
+                                        <div>
+                                            <strong>Immediate Staff Alert</strong>
+                                            <p>No automated reply. Urgent alert dispatched to on-call clinical team via
+                                                SMS/Page. Patient safety overrides automation.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Appointment Panel -->
+                    <div class="demo-panel" id="demo-appointment">
+                        <div class="demo-grid">
+                            <div class="demo-incoming reveal">
+                                <div class="demo-card-header">
+                                    <i class="ph-fill ph-envelope-simple"></i>
+                                    <span>Incoming Email</span>
+                                </div>
+                                <div class="demo-card-body">
+                                    <div class="demo-sender">From: Jennifer Martinez</div>
+                                    <div class="demo-subject">Need to reschedule appointment for tomorrow</div>
+                                    <p>I have an appointment scheduled for tomorrow at 2:00 PM with Dr. Williams, but I
+                                        have an urgent work commitment. Would it be possible to reschedule for next
+                                        week? I am available Tuesday, Wednesday, or Thursday afternoons.</p>
+                                </div>
+                            </div>
+                            <div class="demo-action reveal">
+                                <div class="demo-arrow">
+                                    <i class="ph-bold ph-arrow-right"></i>
+                                </div>
+                                <div class="demo-ai-decision">
+                                    <div class="demo-classification">
+                                        <span class="demo-badge"
+                                            style="background: #dcfce7; color: #16a34a;">Appointment Scheduling</span>
+                                        <span class="demo-badge" style="background: #eff6ff; color: #2563eb;">P3 —
+                                            Standard</span>
+                                    </div>
+                                    <div class="demo-result auto-reply">
+                                        <i class="ph-fill ph-robot"></i>
+                                        <div>
+                                            <strong>AI Auto-Reply Generated</strong>
+                                            <p class="demo-reply-text">Dear Jennifer, thank you for contacting us. We
+                                                understand the need to reschedule. We have noted your availability for
+                                                Tuesday through Thursday afternoons next week. Our scheduling team will
+                                                confirm a new appointment shortly. If you need immediate assistance,
+                                                please call us at (555) 234-5678.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Billing Panel -->
+                    <div class="demo-panel" id="demo-billing">
+                        <div class="demo-grid">
+                            <div class="demo-incoming reveal">
+                                <div class="demo-card-header">
+                                    <i class="ph-fill ph-envelope-simple"></i>
+                                    <span>Incoming Email</span>
+                                </div>
+                                <div class="demo-card-body">
+                                    <div class="demo-sender">From: Robert Anderson</div>
+                                    <div class="demo-subject">Insurance claim dispute - December visits</div>
+                                    <p>I received a bill for $450 for my office visits in December. According to my
+                                        insurance coverage (Blue Cross PPO, Policy #BC-789456), these visits should be
+                                        covered at 80% after my deductible was met. Can you please review this claim?
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="demo-action reveal">
+                                <div class="demo-arrow">
+                                    <i class="ph-bold ph-arrow-right"></i>
+                                </div>
+                                <div class="demo-ai-decision">
+                                    <div class="demo-classification">
+                                        <span class="demo-badge" style="background: #f3e8ff; color: #9333ea;">Billing
+                                            &amp; Insurance</span>
+                                        <span class="demo-badge" style="background: #eff6ff; color: #2563eb;">P3 —
+                                            Standard</span>
+                                    </div>
+                                    <div class="demo-result auto-reply">
+                                        <i class="ph-fill ph-robot"></i>
+                                        <div>
+                                            <strong>AI Auto-Reply Generated</strong>
+                                            <p class="demo-reply-text">Dear Robert, thank you for bringing this to our
+                                                attention. We have received your inquiry regarding invoice #INV-45678
+                                                and your Blue Cross PPO coverage. Our billing team will review the claim
+                                                against your policy details and provide an itemized explanation within
+                                                2-3 business days. We will also coordinate directly with your insurance
+                                                provider if needed.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -277,7 +686,16 @@
                         <p>Generates personalized, contextually appropriate responses for routine inquiries,
                             significantly reducing manual workload.</p>
                     </div>
-                    <!-- Feature 5 -->
+                    <!-- Feature 5 - Spam Detection (NEW) -->
+                    <div class="glass-card reveal">
+                        <div class="feature-header">
+                            <div class="feature-icon"><i class="ph-fill ph-shield-warning"></i></div>
+                            <h4>AI Spam Detection</h4>
+                        </div>
+                        <p>Automatically identifies and quarantines promotional emails, phishing attempts, and
+                            irrelevant messages before they reach clinical staff.</p>
+                    </div>
+                    <!-- Feature 6 -->
                     <div class="glass-card reveal">
                         <div class="feature-header">
                             <div class="feature-icon"><i class="ph-fill ph-shield-check"></i></div>
@@ -286,56 +704,171 @@
                         <p>Protects sensitive patient information with industry-leading encryption standards and
                             comprehensive data privacy protocols.</p>
                     </div>
-                    <!-- Feature 6 -->
+                    <!-- Feature 7 -->
                     <div class="glass-card reveal">
                         <div class="feature-header">
                             <div class="feature-icon"><i class="ph-fill ph-arrows-clockwise"></i></div>
                             <h4>Native Outlook Integration</h4>
                         </div>
-                        <p>Integrates directly with your existing Microsoft Outlook environment—no additional software
+                        <p>Integrates directly with your existing Microsoft Outlook environment — no additional software
                             adoption required.</p>
                     </div>
+                    <!-- Feature 8 -->
+                    <div class="glass-card reveal">
+                        <div class="feature-header">
+                            <div class="feature-icon"><i class="ph-fill ph-tag"></i></div>
+                            <h4>Reply Tracking &amp; Tagging</h4>
+                        </div>
+                        <p>Automatically tags processed emails as "Replied" and tracks conversation status, ensuring
+                            complete audit trails and accountability.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- How It Works -->
-        <section id="how-it-works" class="section-padding">
+        <!-- How It Works - Workflow -->
+        <section id="how-it-works" class="section-padding section-workflow">
             <div class="container">
                 <div class="text-center reveal">
-                    <h2>Implementation Process</h2>
-                    <p>A streamlined four-step approach to transforming your email operations.</p>
+                    <h2>How FlowPilot Works</h2>
+                    <p>A streamlined, fully automated pipeline from email ingestion to intelligent response.</p>
                 </div>
 
-                <div class="timeline-container reveal">
-                    <div class="timeline-step">
-                        <div class="step-dot"><i class="ph-bold ph-link"></i></div>
-                        <h4>Secure Connection</h4>
-                        <p>Establish a secure connection with your Microsoft Outlook account through our encrypted
-                            integration process.</p>
+                <div class="workflow-pipeline reveal">
+                    <div class="workflow-step">
+                        <div class="workflow-step-number">1</div>
+                        <div class="workflow-step-icon">
+                            <i class="ph-fill ph-envelope"></i>
+                        </div>
+                        <h4>Email Ingestion</h4>
+                        <p>Securely connects to your Microsoft Outlook account and fetches incoming unread emails in
+                            real-time.</p>
                     </div>
-                    <div class="timeline-step">
-                        <div class="step-dot"><i class="ph-bold ph-target"></i></div>
-                        <h4>Priority Management</h4>
-                        <p>Eliminate inbox congestion with intelligent filtering that surfaces high-priority
-                            communications.</p>
+
+                    <div class="workflow-connector">
+                        <div class="connector-line"></div>
+                        <i class="ph-bold ph-caret-right"></i>
                     </div>
-                    <div class="timeline-step">
-                        <div class="step-dot"><i class="ph-bold ph-tag"></i></div>
-                        <h4>Automated Classification</h4>
-                        <p>Incoming communications are automatically organized into predefined healthcare-specific
-                            categories.</p>
+
+                    <div class="workflow-step">
+                        <div class="workflow-step-number">2</div>
+                        <div class="workflow-step-icon">
+                            <i class="ph-fill ph-brain"></i>
+                        </div>
+                        <h4>AI Classification</h4>
+                        <p>AI engine analyzes content, identifies medical terminology, and classifies into the
+                            appropriate healthcare category.</p>
                     </div>
-                    <div class="timeline-step">
-                        <div class="step-dot"><i class="ph-bold ph-lightning"></i></div>
-                        <h4>Intelligent Response Generation</h4>
-                        <p>AI-powered response drafting handles routine communications efficiently, freeing your team
-                            for higher-value activities.</p>
+
+                    <div class="workflow-connector">
+                        <div class="connector-line"></div>
+                        <i class="ph-bold ph-caret-right"></i>
+                    </div>
+
+                    <div class="workflow-step">
+                        <div class="workflow-step-number">3</div>
+                        <div class="workflow-step-icon">
+                            <i class="ph-fill ph-funnel"></i>
+                        </div>
+                        <h4>Priority Scoring</h4>
+                        <p>Assigns severity from P1 (Critical) to P4 (Low) based on content urgency, medical context,
+                            and SLA requirements.</p>
+                    </div>
+
+                    <div class="workflow-connector">
+                        <div class="connector-line"></div>
+                        <i class="ph-bold ph-caret-right"></i>
+                    </div>
+
+                    <div class="workflow-step">
+                        <div class="workflow-step-number">4</div>
+                        <div class="workflow-step-icon split-icon">
+                            <i class="ph-fill ph-git-branch"></i>
+                        </div>
+                        <h4>Intelligent Routing</h4>
+                        <p>P1/P2 alerts escalated to staff. P3/P4 handled via AI-generated contextual replies sent
+                            directly through Outlook.</p>
+                    </div>
+
+                    <div class="workflow-connector">
+                        <div class="connector-line"></div>
+                        <i class="ph-bold ph-caret-right"></i>
+                    </div>
+
+                    <div class="workflow-step">
+                        <div class="workflow-step-number">5</div>
+                        <div class="workflow-step-icon">
+                            <i class="ph-fill ph-check-circle"></i>
+                        </div>
+                        <h4>Tag &amp; Archive</h4>
+                        <p>Processed emails are tagged as "Replied" in Outlook, creating a complete audit trail for
+                            compliance and review.</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Dashboard CTA -->
+        <section id="dashboard-cta" class="section-padding section-dashboard-cta">
+            <div class="container">
+                <div class="cta-card reveal">
+                    <div class="cta-content">
+                        <h2>See FlowPilot in Action</h2>
+                        <p>Explore the live dashboard with real-time email classification, priority scoring,
+                            AI-generated
+                            replies, and conversation threading — all powered by the FlowPilot engine.</p>
+                        <div class="cta-features">
+                            <div class="cta-feature">
+                                <i class="ph-fill ph-columns"></i>
+                                <span>3-Column Dashboard Layout</span>
+                            </div>
+                            <div class="cta-feature">
+                                <i class="ph-fill ph-tag"></i>
+                                <span>Real-Time Category Badges</span>
+                            </div>
+                            <div class="cta-feature">
+                                <i class="ph-fill ph-robot"></i>
+                                <span>AI Reply Threading</span>
+                            </div>
+                            <div class="cta-feature">
+                                <i class="ph-fill ph-shield-warning"></i>
+                                <span>Spam Detection Indicators</span>
+                            </div>
+                        </div>
+                        <a href="https://flow-pilot-chi.vercel.app?_vercel_share=3e2c85CgwYzvTh25zhiV2DKoIi8qZu96"
+                            target="_blank" class="btn btn-primary btn-large">
+                            Launch Live Dashboard
+                            <i class="ph-bold ph-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="cta-visual">
+                        <div class="cta-mockup">
+                            <div class="cta-mockup-bar">
+                                <div class="cta-dots">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <span class="cta-url">flow-pilot-chi.vercel.app</span>
+                            </div>
+                            <div class="cta-mockup-content">
+                                <div class="cta-col cta-sidebar"></div>
+                                <div class="cta-col cta-list">
+                                    <div class="cta-email-line"></div>
+                                    <div class="cta-email-line active"></div>
+                                    <div class="cta-email-line"></div>
+                                    <div class="cta-email-line"></div>
+                                    <div class="cta-email-line"></div>
+                                </div>
+                                <div class="cta-col cta-detail">
+                                    <div class="cta-detail-header"></div>
+                                    <div class="cta-detail-body"></div>
+                                    <div class="cta-detail-reply"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
@@ -348,9 +881,9 @@
                     <div class="logo" style="margin-bottom: 1rem;">
                         <i class="ph-fill ph-lightning"></i> FlowPilot
                     </div>
-                    <p class="footer-desc">FlowPilot is an enterprise AI-powered email management platform purpose-built
-                        for healthcare organizations—enhancing communication efficiency, intelligent prioritization, and
-                        overall patient experience.</p>
+                    <p class="footer-desc">FlowPilot is an enterprise AI-powered email management platform
+                        purpose-built for healthcare organizations — enhancing communication efficiency, intelligent
+                        prioritization, and overall patient experience.</p>
                 </div>
 
                 <!-- Column 2: Company -->
@@ -368,7 +901,7 @@
                     <h4>Resources</h4>
                     <a href="#">Blog</a>
                     <a href="#">Privacy Policy</a>
-                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Terms &amp; Conditions</a>
                     <a href="#">Support</a>
                 </div>
 
